@@ -1,9 +1,10 @@
-class BusinessNumbers(object):
+class BidnezzNumbers(object):
 
     def __init__ (self, dbwrapper):
     """
     Initialize the business logic.
 
+    self - me, myself, and I
     dbwrapper - the database wrapper for storing user information.
     """
     self.dbwrapper = dbwrapper
